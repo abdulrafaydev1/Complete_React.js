@@ -1,12 +1,3 @@
-Q: what is reactjs:
-Ans: sir react js ek javascript ki laybari hai jis ko use kar ky UI bana sate hai Ui sims frontend
-
-Q: reactjs jis na banaya hai
-Ans: sir reactjs META ma banaya hai matlab facebook ne banaya hai
-
-Q: reactjs banai ki zarurat q pare 
-Ans: sir reactjs ko banana ki zarurat is liya pare ky jis bhi haam koi website banate tha HTML CSS JSVASCRIPT ko use karky to 
-
 Q: library vs farmework
 Q: real Dom vs virtual Dom
 Q: what is JSX
@@ -18,3 +9,4 @@ Q: what is the deferent between dependencies and devdependencies
 Q: what is the package-lock.json
 Q: what is vite.config.js
 Q: what is components in reactjs
+Q: feature based vs atomic design folder structure
