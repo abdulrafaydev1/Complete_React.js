@@ -1,13 +1,11 @@
 import React from 'react'
 
-const User = (props) => {
-
-
+const User = () => {
 
     return (
         <div>
             <h1 style={{ color: 'red' }}>
-                {props.name}
+
             </h1>
         </div>
     )
