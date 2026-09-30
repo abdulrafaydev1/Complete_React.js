@@ -19,11 +19,8 @@ const App = () => {
   ]
 
   return (
-
       <div className='perent'>
-        {arr.map(function (elem) {
-          return <Card name={elem} />
-        })}
+        
       </div>
   )
 }
