@@ -4,13 +4,14 @@ import User from './components/User'
 
 const App = () => {
 
-      const arr = [10, 20, 30, 40, 50]
-  
+  const arr = [{}, {}, {}]
+
   return (
     <>
-      <User name={arr[0]} />
-      <User name={arr[1]} />
-      <User name={arr[2]} />
+      { arr.map(function(el){
+        console.log(el)
+        return <h1>{el}</h1>
+      })}
     </>
   )
 }
