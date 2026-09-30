@@ -11,3 +11,4 @@ Q: what is vite.config.js
 Q: what is components in reactjs
 Q: feature based vs atomic design folder structure
 Q: why write className in reactjs
+Q: what is props in reactjs
