@@ -15,3 +15,6 @@ Q: what is full from of RAFCE
 Q: what is SPA in reactjs
 Q: what is .eslintrc.cjs
 Q: what is the deferent between dependencies and devdependencies
+Q: what is the package-lock.json
+Q: what is vite.config.js
+Q: what is components in reactjs
