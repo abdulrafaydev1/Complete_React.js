@@ -21,3 +21,8 @@ body{
   padding: 10px 30px;
   text-align: center;
 }
+
+.nav{
+  text-align: center;
+  background-color: rgb(87, 87, 87);
+}
