@@ -4,7 +4,8 @@ import Card from './components/Card'
 const App = () => {
   return (
     <>
-      <Card user='rafay' age={18} />
+      <Card user='Rafay' age={18} />
+      <Card user='Osama' age={24} />
     </>
   )
 }

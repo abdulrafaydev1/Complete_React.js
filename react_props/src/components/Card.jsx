@@ -7,8 +7,8 @@ const Card = (props) => {
     return (
         <div className='perent'>
             <div className="card">
-                <h1>Abdul Rafay</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit fuga architecto facilis ex eveniet sequi harum aspernatur et deleniti voluptas?</p>
+                <h1>{props.user}</h1>
+                <p> {props.age} </p>
                 <button>View profile</button>
             </div>
         </div>
