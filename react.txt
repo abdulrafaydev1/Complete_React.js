@@ -1,4 +1,4 @@
-Q: library vs farmework
+Q: library vs farmework.
 Q: real Dom vs virtual Dom
 Q: what is JSX
 Q: what is react StrictMode
