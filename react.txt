@@ -10,3 +10,8 @@ Ans: sir reactjs ko banana ki zarurat is liya pare ky jis bhi haam koi website b
 Q: library vs farmework
 Q: real Dom vs virtual Dom
 Q: what is JSX
+Q: what is react StrictMode
+Q: what is full from of RAFCE
+Q: what is SPA in reactjs
+Q: what is .eslintrc.cjs
+Q: what is the deferent between dependencies and devdependencies
