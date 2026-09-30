@@ -13,17 +13,18 @@ const App = () => {
       age: 21
     },
     {
-      name: "Rehman"
-
+      name: "Rehman",
+      age: 30
     }
   ]
 
   return (
-    <>
-      {arr.map(function (del) {
-        return <h1>{del}</h1>
-      })}
-    </>
+
+      <div className='perent'>
+        {arr.map(function (elem) {
+          return <Card name={elem} />
+        })}
+      </div>
   )
 }
 
