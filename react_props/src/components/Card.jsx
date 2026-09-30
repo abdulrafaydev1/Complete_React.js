@@ -2,7 +2,7 @@ import React from 'react'
 
 const Card = (props) => {
 
-    console.log(props)
+    console.log(props.user, props.age)
     
     return (
         <div className='perent'>
