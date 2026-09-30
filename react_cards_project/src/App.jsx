@@ -68,10 +68,10 @@ const App = () => {
 
   return (
     <div className='perent'>
-      {arr.map(function (elem) {
-        return <User chacha={elem} />
+      {jobs.map(function (elem) {
+        return <Card company={elem.companyName} jobTitle={elem.jobTitle} jobType={elem.jobType} />
       })}
-    </div>
+    </div>  
   )
 }
 

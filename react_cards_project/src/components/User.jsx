@@ -5,7 +5,7 @@ const User = (props) => {
     return (
         <div>
             <h1 style={{ color: 'white' }}>
-                hello {props.chacha}
+                 {props.name}
             </h1>
         </div>
     )

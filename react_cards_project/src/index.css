@@ -2,7 +2,7 @@
   padding: 0%;
   margin: 0%;
   box-sizing: border-box;
-  color: white;
+  /* color: white; */
 }
 
 html,
@@ -21,6 +21,7 @@ body {
   width: 100%;
   background-color: #111;
   padding: 50px;
+  flex-wrap: wrap;
 }
 
 h2{
