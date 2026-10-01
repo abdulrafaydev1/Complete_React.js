@@ -23,6 +23,7 @@ Q: what is useMemo
 Q: what is useCallback
 Q: what is useContext
 Q: how to make costoom Hook in reactjs
+Q: what is component 
 
 projects
 01: Project for props drilling
