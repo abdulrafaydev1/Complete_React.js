@@ -7,14 +7,14 @@ const App = () => {
   const [index, setIndex] = useState(1)
 
   const getData = async () => {
-    const response = await axios.get('https://picsum.photos/v2/list?page=3&limit=15')
+    const response = await axios.get(`https://picsum.photos/v2/list?page=${index}&limit=10`)
     setUserData(response.data)
     console.log(response.data);
   }
 
   useEffect(() => {
     getData()
-  }, [])
+  }, [index])
 
 
   let checkUser = 'User is not avaible Wait'
@@ -41,15 +41,14 @@ const App = () => {
         {checkUser}
       </div>
       <h1>{index}</h1>
-      <div className="flex justify-center items-center p-4 gap-5">
+      <div id="rafay" className="flex justify-center items-center p-4 gap-5">
         <button onClick={() => {
           if (index > 1) {
             setIndex(index - 1)
           }
-
         }} className="bg-gray-500 w-15 h-7 text-center rounded-2xl text-[14px] active:scale-90 active:bg-amber-500 active: cursor-pointer">Prev</button>
         <button onClick={() => {
-          if (index < 3) {
+          if (index < 5) {
             setIndex(index + 1)
           }
         }} className="bg-gray-500 w-15 h-7 text-center rounded-2xl text-[14px] active:scale-90 active:bg-amber-500 active: cursor-pointer">Next</button>
