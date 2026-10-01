@@ -1,9 +1,16 @@
-import React from 'react'
-
 const App = () => {
+
+  const a = 20;
+
+  function changeAValue(){
+    a = 30
+  }
+  
   return (
     <div>
-      App
+
+          <h1>value a is {a}</h1>
+          <button onClick={changeAValue}>Click</button>
     </div>
   )
 }
