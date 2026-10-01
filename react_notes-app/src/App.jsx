@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { X } from 'lucide-react'
 
 const App = () => {
 
@@ -11,12 +12,18 @@ const App = () => {
     e.preventDefault()
 
     const copyTask = [...task]
-    copyTask.push({title,details})
+    copyTask.push({ title, details })
 
     setTask(copyTask)
 
     setTitle("")
     setDetails("")
+  }
+
+  const deleteNote = (idx) => {
+    const copyTask = [...task]
+    copyTask.splice(idx, 1)
+    setTask(copyTask)
   }
 
   return (
@@ -59,15 +66,18 @@ const App = () => {
 
         <div class="flex flex-wrap items-start justify-start gap-5 mt-6 h-[90%] overflow-auto">
 
-          {task.map(function(elem){
-              return (
-                <div class="w-[300px] h-[200px] bg-white text-black rounded p-5 flex flex-col gap-2">
-                  <h1 class="text-2xl font-bold">{elem.title}</h1>
-                  <p class="text-lg">{elem.details}</p>
-                </div>
-              )
+          {task.map(function (elem, idx) {
+            return (
+              <div key={idx} class="w-[300px] h-[200px] bg-black text-black rounded p-5 flex bg-cover flex-col gap-2 bg-[url('https://img.magnific.com/premium-vector/simple-vector-yellow-note-pad-page_519469-5010.jpg')]">
+                <h1 onClick={()=>{
+                  deleteNote(idx)
+                }}><X /></h1>
+                <h1 class="text-2xl font-bold">{elem.title}</h1>
+                <p class="text-lg">{elem.details}</p>
+              </div>
+            )
           })}
-        
+
         </div>
 
       </div>
