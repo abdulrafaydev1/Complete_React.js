@@ -4,9 +4,7 @@ const App = () => {
 
   function handleFruit(fruitName) {
       console.log(fruitName)
-
   }
-
   return (
     <>
       <button onClick={() => {
