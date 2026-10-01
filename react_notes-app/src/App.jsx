@@ -19,7 +19,6 @@ const App = () => {
     setTitle("")
     setDetails("")
   }
-
   const deleteNote = (idx) => {
     const copyTask = [...task]
     copyTask.splice(idx, 1)
