@@ -27,6 +27,7 @@ import React, { useState } from 'react'
 
 const App = () => {
   const [num, setNum] = useState([10, 20, 30])
+  console.log("num", num)
 
   function abcd() {
     const newNum = [...num]
