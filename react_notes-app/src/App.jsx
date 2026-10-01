@@ -7,6 +7,8 @@ const App = () => {
   const submithandler = (e) => {
     e.preventDefault()
     console.log('form submit hoo raha hai sahi hai bahi', title)
+
+    setTitle("")
   }
 
   return (
@@ -23,14 +25,14 @@ const App = () => {
           placeholder="Enter Notes Heading"
           class="px-5 w-full font-medium py-2 border-2 outline-none rounded"
           value={title}
-          onChange={(e) => { console.log(e.target.value); }}
+          onChange={(e) => { setTitle(e.target.value); }}
         />
 
         <textarea
           class="px-5 w-full font-medium h-32 py-2 border-2 outline-none rounded"
           placeholder="Write Details here"
           value={title}
-          onChange={(e) => { console.log(e.target.value); }}
+          onChange={(e) => { setTitle(e.target.value); }}
         ></textarea>
 
         <button
