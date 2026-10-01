@@ -10,7 +10,7 @@ const App = () => {
     <div>
       <h1>Hello guyss</h1>
 
-      <button>Click me</button>
+      <button onClick={()=>btnClicked()}>Click me</button>
     </div>
   )
 }
