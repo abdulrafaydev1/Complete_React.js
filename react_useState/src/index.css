@@ -12,3 +12,18 @@ body{
   width: 100%;
   height: 100%;
 }
+
+button{
+  padding: 10px 20px;
+  background-color: #555;
+  color: white;
+  border: none;
+}
+
+h1{
+  width: fit-content;
+  padding: 10px 20px;
+  background-color: #555;
+  color: white;
+  border: none;
+}

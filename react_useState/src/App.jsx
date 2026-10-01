@@ -1,19 +1,14 @@
-import { useState } from "react"
+import React from 'react'
+import { useState } from 'react'
 
 const App = () => {
-
-  const [num, setNum] = useState(0)
-
-  function changeValue(){
-    setNum(10)
-  }
-  
+ 
   
   return (
     <div>
-
-          <h1>value a is {num}</h1>
-          <button onClick={changeValue}>Click</button>
+      <h1>0</h1>
+      <button>increase</button>
+      <button>decrease</button>
     </div>
   )
 }
