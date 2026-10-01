@@ -2,13 +2,22 @@ import React from 'react'
 import { useState } from 'react'
 
 const App = () => {
- 
-  
+
+  const [num, setNum] = useState(0)
+
+  function increaseNum() {
+    setNum(num+1)
+  }
+
+  function dcreaseNum() {
+    setNum(num-1)
+  }
+
   return (
     <div>
-      <h1>0</h1>
-      <button>increase</button>
-      <button>decrease</button>
+      <h1>{num}</h1>
+      <button onClick={increaseNum}>increase</button>
+      <button onClick={dcreaseNum}>decrease</button>
     </div>
   )
 }
