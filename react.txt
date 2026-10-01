@@ -15,6 +15,14 @@ Q: what is props in reactjs
 Q: what is tailwind css
 Q: what is functions in reactjs
 Q: what is Hooks in reactjs
+Q: what is useState
+Q: what is useEfect
+Q: what is useReucer
+Q: what is userRef
+Q: what is useMemo
+Q: what is useCallback
+Q: what is useContext
+Q: how to make costoom Hook in reactjs
 
 projects
 01: Project for props drilling
