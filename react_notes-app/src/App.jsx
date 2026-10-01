@@ -59,52 +59,15 @@ const App = () => {
 
         <div class="flex flex-wrap items-start justify-start gap-5 mt-6 h-[90%] overflow-auto">
 
-
-          <div
-            class="flex justify-between flex-col items-start relative h-52 w-40 bg-cover rounded-xl text-black pt-9 pb-4 px-4 bg-[url('https://static.vecteezy.com/system/resources/previews/037/152/677/non_2x/sticky-note-paper-background-free-png.png')]"
-          >
-
-            <div>
-              <h3 class="leading-tight text-lg font-bold">
-                Learn React
-              </h3>
-
-              <p class="mt-2 leading-tight text-xs font-semibold text-gray-600">
-                Learn components, props, state and events.
-              </p>
-            </div>
-
-            <button
-              class="w-full cursor-pointer active:scale-95 bg-red-500 py-1 text-xs rounded font-bold text-white"
-            >
-              Delete
-            </button>
-
-          </div>
-
-
-          <div
-            class="flex justify-between flex-col items-start relative h-52 w-40 bg-cover rounded-xl text-black pt-9 pb-4 px-4 bg-[url('https://static.vecteezy.com/system/resources/previews/037/152/677/non_2x/sticky-note-paper-background-free-png.png')]"
-          >
-
-            <div>
-              <h3 class="leading-tight text-lg font-bold">
-                JavaScript Practice
-              </h3>
-
-              <p class="mt-2 leading-tight text-xs font-semibold text-gray-600">
-                Practice functions, arrays and objects.
-              </p>
-            </div>
-
-            <button
-              class="w-full cursor-pointer active:scale-95 bg-red-500 py-1 text-xs rounded font-bold text-white"
-            >
-              Delete
-            </button>
-
-          </div>
-
+          {task.map(function(elem){
+              return (
+                <div class="w-[300px] h-[200px] bg-white text-black rounded p-5 flex flex-col gap-2">
+                  <h1 class="text-2xl font-bold">{elem.title}</h1>
+                  <p class="text-lg">{elem.details}</p>
+                </div>
+              )
+          })}
+        
         </div>
 
       </div>
