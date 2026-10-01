@@ -16,9 +16,14 @@ const App = () => {
       <form onSubmit={(e) => {
         submitHandler(e)
       }}>
-        <input onChange={(e)=>{
-          submitHandler(e.target.value)
-        }} type="text" placeholder='Enter your name' />
+        <input
+          onChange={(e) => {
+            setTitle(e.target.value)
+          }}
+          type="text"
+          value={title}
+          placeholder='Enter your name'
+        />
         <button >Submit</button>
         <h1>this is value  </h1>
       </form>
