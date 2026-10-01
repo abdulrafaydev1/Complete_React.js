@@ -2,16 +2,17 @@ import React from 'react'
 
 const App = () => {
 
-  function inputChange() {
-    console.log('User is typing')
-    a.value
+  function inputChange(val) {
+    console.log(val)
   }
 
   return (
     <div>
       <h1>Hello guyss</h1>
 
-      <input onChange={inputChange} type="text" placeholder='Enter your name' />
+      <input onChange={function (elem) {
+        inputChange(elem.target.value)
+      }} type="text" placeholder='Enter your name' />
 
     </div>
   )
