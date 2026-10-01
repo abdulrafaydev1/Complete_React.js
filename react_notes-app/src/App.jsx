@@ -3,12 +3,19 @@ import React, { useState } from 'react'
 const App = () => {
 
   const [title, setTitle] = useState("")
-  
+  const [details, setDetails] = useState("")
+
+  const [task, setTask] = useState([])
+
   const submithandler = (e) => {
     e.preventDefault()
-    console.log('form submit hoo raha hai sahi hai bahi', title)
+
+    const copyTask = [...task]
+    copyTask.push({title,details})
+    console.log(copyTask)
 
     setTitle("")
+    setDetails("")
   }
 
   return (
@@ -31,8 +38,8 @@ const App = () => {
         <textarea
           class="px-5 w-full font-medium h-32 py-2 border-2 outline-none rounded"
           placeholder="Write Details here"
-          value={title}
-          onChange={(e) => { setTitle(e.target.value); }}
+          value={details}
+          onChange={(e) => { setDetails(e.target.value); }}
         ></textarea>
 
         <button
