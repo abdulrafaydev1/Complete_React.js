@@ -18,7 +18,7 @@ const App = () => {
     <div>
       <h1>Hello guyss</h1>
 
-      <button onDoubleClick={btnClicked} onMouseEnter={btnClicked} onClick={btnClicked}>Click me</button>
+      <button onDoubleClick={() => btnClicked()} onMouseEnter={btnClicked} onClick={btnClicked}>Click me</button>
     </div>
   )
 }
