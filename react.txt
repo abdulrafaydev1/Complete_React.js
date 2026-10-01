@@ -26,6 +26,7 @@ Q: how to make costoom Hook in reactjs
 Q: what is component 
 Q: what is React Native
 Q: what is form handing in reactjs
+Q: what is to way binding in reactjs
 
 projects
 01: Project for props drilling
