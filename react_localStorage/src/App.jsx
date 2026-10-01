@@ -15,7 +15,7 @@ const App = () => {
     }
   
     const setDataInlocalStorage = localStorage.setItem('userData', JSON.stringify(userData))
-    const getDataInlocalStorage = localStorage.setItem('userData', JSON.parse(userData))  
+    const getDataInlocalStorage = localStorage.getItem('userData', JSON.parse(userData))  
   */
 
 
