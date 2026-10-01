@@ -6,6 +6,9 @@ import Product from './pages/Product'
 import About from './pages/About'
 import { Route, Routes } from "react-router-dom";
 import Contact from './pages/Contact'
+import NotFound from './pages/NotFound'
+import Men from './pages/Men'
+import Women from './pages/Women'
 
 const App = () => {
   return (
@@ -17,6 +20,9 @@ const App = () => {
         <Route path='/about' element={<About />} />
         <Route path='/product' element={<Product />} />
         <Route path='/contact' element={<Contact />} />
+        <Route path='/product/men' element={<Men />} />
+        <Route path='/product/women' element={<Women />} />
+        <Route path='/*' element={<NotFound />} />
       </Routes>
 
       <Footer />
