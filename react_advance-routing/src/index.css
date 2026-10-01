@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 h1{
-    font-size: 100px;
+    font-size: 60px;
     position: absolute;
     top: 50%;
     left: 50%;
