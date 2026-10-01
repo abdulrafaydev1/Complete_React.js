@@ -4,6 +4,7 @@ const App = () => {
 
   const submithandler = (e) => {
       e.preventDefault()
+      console.log('form submit hoo raha hai sahi hai bahi')
   }
   
   return (
@@ -15,6 +16,9 @@ const App = () => {
         <textarea placeholder='enter details'></textarea>
         <button className='bg-amber-500'>Add Task</button>
       </form>
+      <div className='flex flex-wrap p-10'>
+        <div className='h-32 w-32 rounded-2xl bg-white'></div>
+      </div>
     </div>
   )
 }
