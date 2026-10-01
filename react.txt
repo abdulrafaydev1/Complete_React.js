@@ -27,6 +27,7 @@ Q: what is component
 Q: what is React Native
 Q: what is form handing in reactjs
 Q: what is to way binding in reactjs
+Q: how to calling API in reactjs
 
 projects
 01: Project for props drilling
