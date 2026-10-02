@@ -35,6 +35,59 @@ react ya kuch hota hai
 Q2: React library hai ya framework?
 Ans: React ek JavaScript library hai jo user interfaces (UI) banane ke liye use hoti hai. React ka main focus UI layer par hota hai, aur ye developers ko flexibility deta hai ke wo routing aur state management jaise kaamon ke liye apni zarurat ke mutabiq additional tools ya libraries choose kar saken. Jabke Next.js ek framework hai jo React ke upar built hai aur application ka zyada complete structure aur additional features provide karta hai.
 
-3: Library aur Framework mein main difference kya hai?
+Q3: Library aur Framework mein main difference kya hai?
 Ans: Library aur framework mein main difference control ka hota hai. Library mein developer decide karta hai ke library ko kab aur kis tarah use karna hai. Jabke framework application ke flow aur structure ko zyada control karta hai aur developer ke code ko apne defined rules aur lifecycle ke mutabiq call karta hai.
+
+Q4: React ke advantages kya hain?
+1. Reusable Components
+Button
+Card
+Navbar
+Modal
+Input
+2. Component-Based Architecture
+Application ko small manageable parts mein divide kar dete ho.
+Example:
+Amazon Clone
+App
+├── Navbar
+├── SearchBar
+├── ProductList
+│   ├── ProductCard
+│   ├── ProductCard
+│   └── ProductCard
+├── Cart
+└── Footer
+3. Declarative Programming
+Tum batate ho:
+UI ko current state ke according kya show karna hai.
+React UI updates ko manage karta hai.
+4. State Management
+React state ke through interactive UI banana easy ho jata hai.
+Example:
+const [isOpen, setIsOpen] = useState(false);
+5. Efficient Updates
+React rendering/reconciliation system unnecessary DOM work ko reduce karne mein help karta hai.
+6. Ecosystem
+React ke around large ecosystem hai.
+7. Maintainability
+Proper component architecture ke saath large codebases ko organized rakhna easier hota hai.
+8. Community
+React ka large developer ecosystem hai, jiski wajah se documentation, learning resources aur third-party libraries bohat available hain.
+9. Testing Support
+React applications ke liye testing tools available hain:
+Vitest
+Jest
+React Testing Library
+Playwright
+Cypress 
+10. Different Rendering Approaches
+React ecosystem mein client-side rendering ke saath frameworks jaise Next.js server-side rendering aur static rendering jaise approaches support karte hain.
+
+Q5: SPA kya hota hai?
+Ans: SPA ka matlab Single Page Application hota hai. SPA mein application shuru mein ek initial page load karti hai, aur uske baad jab user different pages ya sections par jata hai ya application ke saath interact karta hai, to UI dynamically update hota hai, bina har baar browser ko poora reload kiye.
+
+Q6: Component kya hota hai?
+
+
 
