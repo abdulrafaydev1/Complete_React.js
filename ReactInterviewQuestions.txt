@@ -94,3 +94,31 @@ Q7: Functional Component kya hai?
 Ans: Functional Component ek JavaScript function hota hai jo React ka UI return karta hai, aur usually ise JSX mein likha jata hai.
 Modern React mein mostly functional components use kiye jate hain. Hooks ki madad se functional components mein hum state, side effects, refs aur React ke doosre features ko manage kar sakte hain.
 
+Q8: JSX kya hai?
+Ans: JSX ka matlab JavaScript XML hai. Ye React mein use hone wali ek syntax extension hai jo humein JavaScript ke andar HTML jaisi UI syntax likhne deti hai. JSX actual HTML nahi hota; build process ke dauran JSX ko JavaScript mein transform kiya jata hai, aur phir browser us JavaScript ko execute karta hai.
+JSX ke Important Rules
+1. Ek Parent Element hona zaroori hai
+Agar multiple elements return kar rahe ho, to unhein ek parent element ke andar wrap karna hota hai. Extra div nahi chahiye ho to Fragment <>...</> use kar sakte ho.
+2. Har Tag Properly Close hona chahiye
+Normal tags ka closing tag hona chahiye, aur self-closing tags ko / ke saath close karte hain.
+<h1>Hello</h1>
+<input type="text" />
+3. class ki jagah className use hota hai
+JSX mein CSS class lagane ke liye className use karte hain.
+<div className="container">Hello</div>
+4. JavaScript likhne ke liye Curly Braces {} use karte hain
+Curly braces ke andar JavaScript expressions likh sakte hain.
+<h1>{name}</h1>
+5. HTML Attributes mein JSX ka syntax follow karna hota hai
+Kuch attributes camelCase mein likhe jate hain, jaise onClick, onChange aur tabIndex.
+<button onClick={handleClick}>Click Me</button>
+6. Self-closing Tags ko / se close karna hota hai
+<img src="image.jpg" alt="Example" />
+<input type="text" />
+7. JSX mein JavaScript Expression aur HTML-like Syntax ko combine kar sakte hain
+const name = "Ali";
+<h1>Hello {name}</h1>
+Simple yaad rakhne wali baat:
+JSX = JavaScript + HTML jaisi syntax, lekin JSX khud HTML nahi hai. JSX ko JavaScript mein transform kiya jata hai, aur phir browser JavaScript ko execute karta hai.
+
+
