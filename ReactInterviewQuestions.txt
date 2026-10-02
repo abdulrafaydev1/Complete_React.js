@@ -121,4 +121,14 @@ const name = "Ali";
 Simple yaad rakhne wali baat:
 JSX = JavaScript + HTML jaisi syntax, lekin JSX khud HTML nahi hai. JSX ko JavaScript mein transform kiya jata hai, aur phir browser JavaScript ko execute karta hai.
 
+Q9: JSX aur HTML mein difference kya hai?
+Ans: pata nahi
 
+Q10: Props kya hain?
+Ans: Props ka matlab Properties hota hai. Props wo data hote hain jo ek parent component apne child component ko pass karta hai. Inki madad se hum components ke darmiyan data share karte hain. Props read-only inputs ki tarah hoti hain, isliye child component ko props ko directly modify nahi karna chahiye.
+
+Q11: State kya hai?
+Ans: State component ka internal aur dynamic data hota hai jo waqt ke saath change ho sakta hai. React mein hum state ko useState jaise hooks ke through manage karte hain. Jab state update hoti hai to React component ko re-render karta hai taake UI latest state ke according update ho jaye.
+
+Q12: Props vs State
+Ans: 
