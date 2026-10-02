@@ -1,13 +1,16 @@
-import Parent from './components/Parent'
+import { useState } from "react"
+import Parent from "./components/Parent"
 
 const App = () => {
+  const [message, setMessage] = useState('')
+
   function handleMessage(message) {
-   console.log("child",message)
+    setMessage(message)
   }
   return (
     <div>
- 
       <Parent message={handleMessage} />
+      <h1>{message}</h1>
     </div>
   )
 }
