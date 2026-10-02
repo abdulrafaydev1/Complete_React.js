@@ -131,4 +131,4 @@ Q11: State kya hai?
 Ans: State component ka internal aur dynamic data hota hai jo waqt ke saath change ho sakta hai. React mein hum state ko useState jaise hooks ke through manage karte hain. Jab state update hoti hai to React component ko re-render karta hai taake UI latest state ke according update ho jaye.
 
 Q12: Props vs State
-Ans: 
+Ans: Props aur state dono data handle karte hain, lekin inka role different hota hai. Props parent component se child component ko data pass karne ke liye hoti hain aur child inko directly modify nahi karta. State component ka apna dynamic data hota hai jo update ho sakta hai aur state update hone par React UI ko re-render karta hai.
