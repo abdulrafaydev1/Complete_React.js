@@ -1,7 +1,7 @@
 import { useState } from "react"
 
-const Counter = () => {
-  const [isOnline, setIsOnline] = useState(true);
+const Counter = ({name}) => {
+  const [isOnline, setIsOnline] = useState(false);
 
   return (
     <div>
