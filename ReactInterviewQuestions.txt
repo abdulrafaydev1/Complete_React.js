@@ -23,6 +23,7 @@ react ya kuch hota hai
 11, API Integration
 
 Q2: React library hai ya framework?
-Ans: sir react ek javascript ki library hai 
+Ans: React ek JavaScript library hai jo user interfaces (UI) banane ke liye use hoti hai. React ka main focus UI layer par hota hai, aur ye developers ko flexibility deta hai ke wo routing aur state management jaise kaamon ke liye apni zarurat ke mutabiq additional tools ya libraries choose kar saken. Jabke Next.js ek framework hai jo React ke upar built hai aur application ka zyada complete structure aur additional features provide karta hai.
 
-3. React kyun use karte hain?
+3: Library aur Framework mein main difference kya hai?
+Ans: Library aur framework mein main difference control ka hota hai. Library mein developer decide karta hai ke library ko kab aur kis tarah use karna hai. Jabke framework application ke flow aur structure ko zyada control karta hai aur developer ke code ko apne defined rules aur lifecycle ke mutabiq call karta hai.
