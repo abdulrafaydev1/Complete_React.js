@@ -32,6 +32,5 @@ Q: deferent between Fatch vs axios
 Q: what is reactjs routhing and how it is work
 Q: what is react-router-dom in reactjs
 Q: what the deferent between nested routes vs dynamin routes vs usenavegate vs 404 page
-
-projects
-01: Project for props drilling
+----------------------------------------
+ReactJS Interview mein kya kya aata hai?
