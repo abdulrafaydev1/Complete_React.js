@@ -22,3 +22,7 @@ react ya kuch hota hai
 10, State Management
 11, API Integration
 
+Q2: React library hai ya framework?
+Ans: sir react ek javascript ki library hai 
+
+3. React kyun use karte hain?
