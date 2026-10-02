@@ -1,4 +1,14 @@
 ReactJS Interview mein kya kya aata hai?
+Q: React kya hai?
+Q: React library hai ya framework?
+Q: Library aur Framework mein main difference kya hai?
+Q: React kyun use karte hain?
+Q: React ke advantages kya hain?
+Q: SPA kya hota hai?
+Q: Component kya hota hai?
+Q: Functional Component kya hai?
+Q: JSX kya hai?
+Q: JSX aur HTML mein difference kya hai?
 
 React basics
 
@@ -27,3 +37,4 @@ Ans: React ek JavaScript library hai jo user interfaces (UI) banane ke liye use 
 
 3: Library aur Framework mein main difference kya hai?
 Ans: Library aur framework mein main difference control ka hota hai. Library mein developer decide karta hai ke library ko kab aur kis tarah use karna hai. Jabke framework application ke flow aur structure ko zyada control karta hai aur developer ke code ko apne defined rules aur lifecycle ke mutabiq call karta hai.
+
