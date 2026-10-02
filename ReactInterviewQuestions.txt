@@ -88,6 +88,9 @@ Q5: SPA kya hota hai?
 Ans: SPA ka matlab Single Page Application hota hai. SPA mein application shuru mein ek initial page load karti hai, aur uske baad jab user different pages ya sections par jata hai ya application ke saath interact karta hai, to UI dynamically update hota hai, bina har baar browser ko poora reload kiye.
 
 Q6: Component kya hota hai?
+Ans: Component React application ka ek reusable building block hota hai. Ye UI ke kisi ek part ko represent karta hai aur iske andar apni logic, state, event handlers aur props ho sakte hain. React applications ko multiple components ko combine karke banaya jata hai.
 
-
+Q7: Functional Component kya hai?
+Ans: Functional Component ek JavaScript function hota hai jo React ka UI return karta hai, aur usually ise JSX mein likha jata hai.
+Modern React mein mostly functional components use kiye jate hain. Hooks ki madad se functional components mein hum state, side effects, refs aur React ke doosre features ko manage kar sakte hain.
 
