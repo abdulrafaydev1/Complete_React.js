@@ -1,14 +1,13 @@
-import Counter from './components/Counter'
 import Parent from './components/Parent'
 
 const App = () => {
+  function handleMessage(message) {
+   console.log("child",message)
+  }
   return (
     <div>
-      <Parent
-        name='Abdul Rafay'
-        age={18}
-        city='Karachi'
-      />
+ 
+      <Parent message={handleMessage} />
     </div>
   )
 }

@@ -1,11 +1,9 @@
-import React from 'react'
-
-const Parent = ({ name, age, city }) => {
+ 
+const Parent = ({ message }) => {
+   
     return (
-        <div>
-            <h1>this is my name: {name} </h1>
-            <h1>this is my age: {age} </h1>
-            <h1>this is my city: {city} </h1>
+        <div> 
+            <button onClick={()=> message('hello from child')}>Click</button>
         </div>
     )
 }

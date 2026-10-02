@@ -134,4 +134,7 @@ Q12: Props vs State
 Ans: Props aur state dono data handle karte hain, lekin inka role different hota hai. Props parent component se child component ko data pass karne ke liye hoti hain aur child inko directly modify nahi karta. State component ka apna dynamic data hota hai jo update ho sakta hai aur state update hone par React UI ko re-render karta hai.
 
 Q13: Parent se child ko data kaise bhejte ho?
+Ans: Parent component se child component ko data bhejne ke liye hum props use karte hain. Parent component child ko props pass karta hai aur child component un props ko receive karke UI ya apni logic mein use karta hai.
+
+Q14: Child se parent ko data kaise bhejte ho?
 Ans: 
