@@ -1,0 +1,24 @@
+ReactJS Interview mein kya kya aata hai?
+
+React basics
+
+Q1: React kya hai?
+Ans: sir react ek javascript ki library hai jo UI user interfaces banana ky liya use hoti hai or react develope ki hai facebook na phale haam facebook bolte tha likin ab bolte hai Meta jis developer na react develope ki hai us ka naam hai "Jordan Walke" or react banana main idea hai ky UI ko chote chote components ma divite karda jis se reuseability barti hai React banana ka main purpose hai ky
+1,UI banane ke liye
+2,Interactive websites banane ke liye
+3,Single Page Applications banane ke liye
+4,Reusable components banane ke liye
+5.Large frontend applications ko manageable banane ke liye
+react ya kuch hota hai
+1, Components
+2, Props
+3, State
+4, Hooks
+5, JSX
+6, Event Handling
+7, Conditional Rendering
+8, List Rendering
+9, Routing
+10, State Management
+11, API Integration
+
