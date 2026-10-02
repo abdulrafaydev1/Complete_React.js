@@ -4,7 +4,11 @@ import Parent from './components/Parent'
 const App = () => {
   return (
     <div>
-      <Parent name='Mara naam Abdul Rafay hai apka kya naam hai'/>
+      <Parent
+        name='Abdul Rafay'
+        age={18}
+        city='Karachi'
+      />
     </div>
   )
 }
