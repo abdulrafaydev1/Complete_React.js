@@ -137,4 +137,10 @@ Q13: Parent se child ko data kaise bhejte ho?
 Ans: Parent component se child component ko data bhejne ke liye hum props use karte hain. Parent component child ko props pass karta hai aur child component un props ko receive karke UI ya apni logic mein use karta hai.
 
 Q14: Child se parent ko data kaise bhejte ho?
-Ans: 
+Ans: React mein child component normally parent ki state ko directly modify nahi karta. Child se parent ko data bhejne ke liye parent ek callback function child ko prop ke through pass karta hai. Child us function ko call karta hai aur data argument ke taur par parent ko bhej deta hai. Parent phir us data ko apni state mein store ya process kar sakta hai.
+
+Q14: Props ko directly modify kyun nahi karte?
+Ans: Props ko directly modify nahi karna chahiye kyunki props parent component se aane wala read-only input hoti hain. React mein data flow ko predictable aur one-directional rakhna important hai. Agar child ko koi change karwana ho to wo callback function ke through parent ko request karta hai, aur parent apni state update karke new props child ko deta hai.
+
+Q15: State ko directly mutate kyun nahi karte?
+Ans: State ko directly mutate karne ke bajaye state setter use karna chahiye, kyunki React state updates ko setter ke through process karta hai. Naya object ya array bana kar state update karna zyada predictable aur React ke expected update model ke mutabiq hota hai.
